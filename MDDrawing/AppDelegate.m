@@ -2,7 +2,7 @@
 //  AppDelegate.m
 //  PathHitTesting
 //
-//  Created by Mahmut Duman on 30.01.12.
+//  Created by Mahmut Duman on 30.01.16
 //  Copyright (c) 2012 Mahmut Duman. All rights reserved.
 //
 
