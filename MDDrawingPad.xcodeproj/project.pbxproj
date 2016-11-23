@@ -1,0 +1,362 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		29296F8319C6326D00233BAB /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 29296F6819C6326D00233BAB /* AppDelegate.m */; };
+		29296F8419C6326D00233BAB /* ColorPickerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 29296F6A19C6326D00233BAB /* ColorPickerViewController.m */; };
+		29296F8619C6326D00233BAB /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 29296F6E19C6326D00233BAB /* InfoPlist.strings */; };
+		29296F8719C6326D00233BAB /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 29296F7019C6326D00233BAB /* MainStoryboard.storyboard */; };
+		29296F8819C6326D00233BAB /* ImagePickerCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 29296F7319C6326D00233BAB /* ImagePickerCell.m */; };
+		29296F8919C6326D00233BAB /* ImagePickerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 29296F7519C6326D00233BAB /* ImagePickerViewController.m */; };
+		29296F8A19C6326D00233BAB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29296F7619C6326D00233BAB /* main.m */; };
+		29296F8B19C6326D00233BAB /* MDDrawingLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 29296F7819C6326D00233BAB /* MDDrawingLayer.m */; };
+		29296F8D19C6326D00233BAB /* Shape.m in Sources */ = {isa = PBXBuildFile; fileRef = 29296F7C19C6326D00233BAB /* Shape.m */; };
+		29296F8E19C6326D00233BAB /* 1.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 29296F7E19C6326D00233BAB /* 1.jpeg */; };
+		29296F8F19C6326D00233BAB /* 2.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 29296F7F19C6326D00233BAB /* 2.jpeg */; };
+		29296F9019C6326D00233BAB /* 3.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 29296F8019C6326D00233BAB /* 3.jpeg */; };
+		29296F9119C6326D00233BAB /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 29296F8219C6326D00233BAB /* ViewController.m */; };
+		29615EE619C233F500E5096A /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 29615EE519C233F500E5096A /* QuartzCore.framework */; };
+		5D892D3014D6F72B005B3273 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5D892D2F14D6F72B005B3273 /* UIKit.framework */; };
+		5D892D3214D6F72B005B3273 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5D892D3114D6F72B005B3273 /* Foundation.framework */; };
+		5D892D3414D6F72B005B3273 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5D892D3314D6F72B005B3273 /* CoreGraphics.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		29296F6719C6326D00233BAB /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = MDDrawing/AppDelegate.h; sourceTree = SOURCE_ROOT; };
+		29296F6819C6326D00233BAB /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = MDDrawing/AppDelegate.m; sourceTree = SOURCE_ROOT; };
+		29296F6919C6326D00233BAB /* ColorPickerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ColorPickerViewController.h; path = MDDrawing/ColorPickerViewController.h; sourceTree = SOURCE_ROOT; };
+		29296F6A19C6326D00233BAB /* ColorPickerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ColorPickerViewController.m; path = MDDrawing/ColorPickerViewController.m; sourceTree = SOURCE_ROOT; };
+		29296F6F19C6326D00233BAB /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = InfoPlist.strings; sourceTree = "<group>"; };
+		29296F7119C6326D00233BAB /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = MainStoryboard.storyboard; sourceTree = "<group>"; };
+		29296F7219C6326D00233BAB /* ImagePickerCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ImagePickerCell.h; path = MDDrawing/ImagePickerCell.h; sourceTree = SOURCE_ROOT; };
+		29296F7319C6326D00233BAB /* ImagePickerCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ImagePickerCell.m; path = MDDrawing/ImagePickerCell.m; sourceTree = SOURCE_ROOT; };
+		29296F7419C6326D00233BAB /* ImagePickerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ImagePickerViewController.h; path = MDDrawing/ImagePickerViewController.h; sourceTree = SOURCE_ROOT; };
+		29296F7519C6326D00233BAB /* ImagePickerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ImagePickerViewController.m; path = MDDrawing/ImagePickerViewController.m; sourceTree = SOURCE_ROOT; };
+		29296F7619C6326D00233BAB /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = MDDrawing/main.m; sourceTree = SOURCE_ROOT; };
+		29296F7719C6326D00233BAB /* MDDrawingLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MDDrawingLayer.h; path = MDDrawing/MDDrawingLayer.h; sourceTree = SOURCE_ROOT; };
+		29296F7819C6326D00233BAB /* MDDrawingLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MDDrawingLayer.m; path = MDDrawing/MDDrawingLayer.m; sourceTree = SOURCE_ROOT; };
+		29296F7919C6326D00233BAB /* MDDrawingPad-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "MDDrawingPad-Info.plist"; path = "MDDrawing/MDDrawingPad-Info.plist"; sourceTree = SOURCE_ROOT; };
+		29296F7A19C6326D00233BAB /* MDDrawingPad-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "MDDrawingPad-Prefix.pch"; path = "MDDrawing/MDDrawingPad-Prefix.pch"; sourceTree = SOURCE_ROOT; };
+		29296F7B19C6326D00233BAB /* Shape.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Shape.h; path = MDDrawing/Shape.h; sourceTree = SOURCE_ROOT; };
+		29296F7C19C6326D00233BAB /* Shape.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Shape.m; path = MDDrawing/Shape.m; sourceTree = SOURCE_ROOT; };
+		29296F7E19C6326D00233BAB /* 1.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 1.jpeg; sourceTree = "<group>"; };
+		29296F7F19C6326D00233BAB /* 2.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 2.jpeg; sourceTree = "<group>"; };
+		29296F8019C6326D00233BAB /* 3.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 3.jpeg; sourceTree = "<group>"; };
+		29296F8119C6326D00233BAB /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ViewController.h; path = MDDrawing/ViewController.h; sourceTree = SOURCE_ROOT; };
+		29296F8219C6326D00233BAB /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ViewController.m; path = MDDrawing/ViewController.m; sourceTree = SOURCE_ROOT; };
+		29615EE519C233F500E5096A /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		5D892D2B14D6F72B005B3273 /* MDDrawingPad.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MDDrawingPad.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5D892D2F14D6F72B005B3273 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		5D892D3114D6F72B005B3273 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		5D892D3314D6F72B005B3273 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5D892D2814D6F72B005B3273 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				29615EE619C233F500E5096A /* QuartzCore.framework in Frameworks */,
+				5D892D3014D6F72B005B3273 /* UIKit.framework in Frameworks */,
+				5D892D3214D6F72B005B3273 /* Foundation.framework in Frameworks */,
+				5D892D3414D6F72B005B3273 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		29296F6D19C6326D00233BAB /* en.lproj */ = {
+			isa = PBXGroup;
+			children = (
+				29296F6E19C6326D00233BAB /* InfoPlist.strings */,
+				29296F7019C6326D00233BAB /* MainStoryboard.storyboard */,
+			);
+			name = en.lproj;
+			path = MDDrawing/en.lproj;
+			sourceTree = SOURCE_ROOT;
+		};
+		29296F7D19C6326D00233BAB /* ShapeImages */ = {
+			isa = PBXGroup;
+			children = (
+				29296F7E19C6326D00233BAB /* 1.jpeg */,
+				29296F7F19C6326D00233BAB /* 2.jpeg */,
+				29296F8019C6326D00233BAB /* 3.jpeg */,
+			);
+			name = ShapeImages;
+			path = MDDrawing/ShapeImages;
+			sourceTree = SOURCE_ROOT;
+		};
+		5D892D2014D6F72B005B3273 = {
+			isa = PBXGroup;
+			children = (
+				5D892D3514D6F72B005B3273 /* MDDrawingPad */,
+				5D892D2E14D6F72B005B3273 /* Frameworks */,
+				5D892D2C14D6F72B005B3273 /* Products */,
+			);
+			sourceTree = "<group>";
+			usesTabs = 0;
+		};
+		5D892D2C14D6F72B005B3273 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5D892D2B14D6F72B005B3273 /* MDDrawingPad.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5D892D2E14D6F72B005B3273 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				29615EE519C233F500E5096A /* QuartzCore.framework */,
+				5D892D2F14D6F72B005B3273 /* UIKit.framework */,
+				5D892D3114D6F72B005B3273 /* Foundation.framework */,
+				5D892D3314D6F72B005B3273 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		5D892D3514D6F72B005B3273 /* MDDrawingPad */ = {
+			isa = PBXGroup;
+			children = (
+				29296F6719C6326D00233BAB /* AppDelegate.h */,
+				29296F6819C6326D00233BAB /* AppDelegate.m */,
+				29296F6919C6326D00233BAB /* ColorPickerViewController.h */,
+				29296F6A19C6326D00233BAB /* ColorPickerViewController.m */,
+				29296F6D19C6326D00233BAB /* en.lproj */,
+				29296F7219C6326D00233BAB /* ImagePickerCell.h */,
+				29296F7319C6326D00233BAB /* ImagePickerCell.m */,
+				29296F7419C6326D00233BAB /* ImagePickerViewController.h */,
+				29296F7519C6326D00233BAB /* ImagePickerViewController.m */,
+				29296F7619C6326D00233BAB /* main.m */,
+				29296F7719C6326D00233BAB /* MDDrawingLayer.h */,
+				29296F7819C6326D00233BAB /* MDDrawingLayer.m */,
+				29296F7919C6326D00233BAB /* MDDrawingPad-Info.plist */,
+				29296F7A19C6326D00233BAB /* MDDrawingPad-Prefix.pch */,
+				29296F7B19C6326D00233BAB /* Shape.h */,
+				29296F7C19C6326D00233BAB /* Shape.m */,
+				29296F7D19C6326D00233BAB /* ShapeImages */,
+				29296F8119C6326D00233BAB /* ViewController.h */,
+				29296F8219C6326D00233BAB /* ViewController.m */,
+			);
+			name = MDDrawingPad;
+			path = PathHitTesting;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5D892D2A14D6F72B005B3273 /* MDDrawingPad */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5D892D4914D6F72C005B3273 /* Build configuration list for PBXNativeTarget "MDDrawingPad" */;
+			buildPhases = (
+				5D892D2714D6F72B005B3273 /* Sources */,
+				5D892D2814D6F72B005B3273 /* Frameworks */,
+				5D892D2914D6F72B005B3273 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MDDrawingPad;
+			productName = PathHitTesting;
+			productReference = 5D892D2B14D6F72B005B3273 /* MDDrawingPad.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5D892D2214D6F72B005B3273 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "Mahmut Duman";
+			};
+			buildConfigurationList = 5D892D2514D6F72B005B3273 /* Build configuration list for PBXProject "MDDrawingPad" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 5D892D2014D6F72B005B3273;
+			productRefGroup = 5D892D2C14D6F72B005B3273 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5D892D2A14D6F72B005B3273 /* MDDrawingPad */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5D892D2914D6F72B005B3273 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				29296F8F19C6326D00233BAB /* 2.jpeg in Resources */,
+				29296F8719C6326D00233BAB /* MainStoryboard.storyboard in Resources */,
+				29296F9019C6326D00233BAB /* 3.jpeg in Resources */,
+				29296F8619C6326D00233BAB /* InfoPlist.strings in Resources */,
+				29296F8E19C6326D00233BAB /* 1.jpeg in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5D892D2714D6F72B005B3273 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				29296F9119C6326D00233BAB /* ViewController.m in Sources */,
+				29296F8419C6326D00233BAB /* ColorPickerViewController.m in Sources */,
+				29296F8819C6326D00233BAB /* ImagePickerCell.m in Sources */,
+				29296F8B19C6326D00233BAB /* MDDrawingLayer.m in Sources */,
+				29296F8D19C6326D00233BAB /* Shape.m in Sources */,
+				29296F8319C6326D00233BAB /* AppDelegate.m in Sources */,
+				29296F8919C6326D00233BAB /* ImagePickerViewController.m in Sources */,
+				29296F8A19C6326D00233BAB /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		29296F6E19C6326D00233BAB /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				29296F6F19C6326D00233BAB /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		29296F7019C6326D00233BAB /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				29296F7119C6326D00233BAB /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5D892D4714D6F72C005B3273 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		5D892D4814D6F72C005B3273 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5D892D4A14D6F72C005B3273 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MDDrawing/MDDrawingPad-Prefix.pch";
+				INFOPLIST_FILE = "MDDrawing/MDDrawingPad-Info.plist";
+				PRODUCT_NAME = MDDrawingPad;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		5D892D4B14D6F72C005B3273 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MDDrawing/MDDrawingPad-Prefix.pch";
+				INFOPLIST_FILE = "MDDrawing/MDDrawingPad-Info.plist";
+				PRODUCT_NAME = MDDrawingPad;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5D892D2514D6F72B005B3273 /* Build configuration list for PBXProject "MDDrawingPad" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5D892D4714D6F72C005B3273 /* Debug */,
+				5D892D4814D6F72C005B3273 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5D892D4914D6F72C005B3273 /* Build configuration list for PBXNativeTarget "MDDrawingPad" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5D892D4A14D6F72C005B3273 /* Debug */,
+				5D892D4B14D6F72C005B3273 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5D892D2214D6F72B005B3273 /* Project object */;
+}
