@@ -3,3 +3,5 @@ This is a drawing application for iPad. It is based on **CALayers**. It supports
  * Shapes (rectangle, ellipse, polygons)
  * Shape selecting, moving, rotating and resizing.
  * Color and line width selection
+
+![Screenshot](https://github.com/madiden/MDDrawing-iPad/blob/master/images/Simulator%20Screen%20Shot%2023%20Nov%202016,%2021.00.15.png?raw=true)
