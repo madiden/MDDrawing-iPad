@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		291AF8A81DE61F0B000B36FC /* Simulator Screen Shot 23 Nov 2016, 21.00.15.png in Resources */ = {isa = PBXBuildFile; fileRef = 291AF8A71DE61F0B000B36FC /* Simulator Screen Shot 23 Nov 2016, 21.00.15.png */; };
 		29296F8319C6326D00233BAB /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 29296F6819C6326D00233BAB /* AppDelegate.m */; };
 		29296F8419C6326D00233BAB /* ColorPickerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 29296F6A19C6326D00233BAB /* ColorPickerViewController.m */; };
 		29296F8619C6326D00233BAB /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 29296F6E19C6326D00233BAB /* InfoPlist.strings */; };
@@ -28,7 +27,6 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		291AF8A71DE61F0B000B36FC /* Simulator Screen Shot 23 Nov 2016, 21.00.15.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Simulator Screen Shot 23 Nov 2016, 21.00.15.png"; path = "../../../../../../../../Users/mahmutduman/Desktop/Simulator Screen Shot 23 Nov 2016, 21.00.15.png"; sourceTree = "<group>"; };
 		29296F6719C6326D00233BAB /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = MDDrawing/AppDelegate.h; sourceTree = SOURCE_ROOT; };
 		29296F6819C6326D00233BAB /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = MDDrawing/AppDelegate.m; sourceTree = SOURCE_ROOT; };
 		29296F6919C6326D00233BAB /* ColorPickerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ColorPickerViewController.h; path = MDDrawing/ColorPickerViewController.h; sourceTree = SOURCE_ROOT; };
@@ -73,14 +71,6 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		291AF8A61DE61ED1000B36FC /* images */ = {
-			isa = PBXGroup;
-			children = (
-				291AF8A71DE61F0B000B36FC /* Simulator Screen Shot 23 Nov 2016, 21.00.15.png */,
-			);
-			name = images;
-			sourceTree = "<group>";
-		};
 		29296F6D19C6326D00233BAB /* en.lproj */ = {
 			isa = PBXGroup;
 			children = (
@@ -134,7 +124,6 @@
 		5D892D3514D6F72B005B3273 /* MDDrawingPad */ = {
 			isa = PBXGroup;
 			children = (
-				291AF8A61DE61ED1000B36FC /* images */,
 				29296F6719C6326D00233BAB /* AppDelegate.h */,
 				29296F6819C6326D00233BAB /* AppDelegate.m */,
 				29296F6919C6326D00233BAB /* ColorPickerViewController.h */,
@@ -212,7 +201,6 @@
 			files = (
 				29296F8F19C6326D00233BAB /* 2.jpeg in Resources */,
 				29296F8719C6326D00233BAB /* MainStoryboard.storyboard in Resources */,
-				291AF8A81DE61F0B000B36FC /* Simulator Screen Shot 23 Nov 2016, 21.00.15.png in Resources */,
 				29296F9019C6326D00233BAB /* 3.jpeg in Resources */,
 				29296F8619C6326D00233BAB /* InfoPlist.strings in Resources */,
 				29296F8E19C6326D00233BAB /* 1.jpeg in Resources */,
