@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		291AF8A81DE61F0B000B36FC /* Simulator Screen Shot 23 Nov 2016, 21.00.15.png in Resources */ = {isa = PBXBuildFile; fileRef = 291AF8A71DE61F0B000B36FC /* Simulator Screen Shot 23 Nov 2016, 21.00.15.png */; };
 		29296F8319C6326D00233BAB /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 29296F6819C6326D00233BAB /* AppDelegate.m */; };
 		29296F8419C6326D00233BAB /* ColorPickerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 29296F6A19C6326D00233BAB /* ColorPickerViewController.m */; };
 		29296F8619C6326D00233BAB /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 29296F6E19C6326D00233BAB /* InfoPlist.strings */; };
@@ -27,6 +28,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		291AF8A71DE61F0B000B36FC /* Simulator Screen Shot 23 Nov 2016, 21.00.15.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Simulator Screen Shot 23 Nov 2016, 21.00.15.png"; path = "../../../../../../../../Users/mahmutduman/Desktop/Simulator Screen Shot 23 Nov 2016, 21.00.15.png"; sourceTree = "<group>"; };
 		29296F6719C6326D00233BAB /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = MDDrawing/AppDelegate.h; sourceTree = SOURCE_ROOT; };
 		29296F6819C6326D00233BAB /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = MDDrawing/AppDelegate.m; sourceTree = SOURCE_ROOT; };
 		29296F6919C6326D00233BAB /* ColorPickerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ColorPickerViewController.h; path = MDDrawing/ColorPickerViewController.h; sourceTree = SOURCE_ROOT; };
@@ -71,6 +73,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		291AF8A61DE61ED1000B36FC /* images */ = {
+			isa = PBXGroup;
+			children = (
+				291AF8A71DE61F0B000B36FC /* Simulator Screen Shot 23 Nov 2016, 21.00.15.png */,
+			);
+			name = images;
+			sourceTree = "<group>";
+		};
 		29296F6D19C6326D00233BAB /* en.lproj */ = {
 			isa = PBXGroup;
 			children = (
@@ -124,6 +134,7 @@
 		5D892D3514D6F72B005B3273 /* MDDrawingPad */ = {
 			isa = PBXGroup;
 			children = (
+				291AF8A61DE61ED1000B36FC /* images */,
 				29296F6719C6326D00233BAB /* AppDelegate.h */,
 				29296F6819C6326D00233BAB /* AppDelegate.m */,
 				29296F6919C6326D00233BAB /* ColorPickerViewController.h */,
@@ -174,7 +185,7 @@
 		5D892D2214D6F72B005B3273 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0510;
+				LastUpgradeCheck = 0810;
 				ORGANIZATIONNAME = "Mahmut Duman";
 			};
 			buildConfigurationList = 5D892D2514D6F72B005B3273 /* Build configuration list for PBXProject "MDDrawingPad" */;
@@ -201,6 +212,7 @@
 			files = (
 				29296F8F19C6326D00233BAB /* 2.jpeg in Resources */,
 				29296F8719C6326D00233BAB /* MainStoryboard.storyboard in Resources */,
+				291AF8A81DE61F0B000B36FC /* Simulator Screen Shot 23 Nov 2016, 21.00.15.png in Resources */,
 				29296F9019C6326D00233BAB /* 3.jpeg in Resources */,
 				29296F8619C6326D00233BAB /* InfoPlist.strings in Resources */,
 				29296F8E19C6326D00233BAB /* 1.jpeg in Resources */,
@@ -256,12 +268,18 @@
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_OPTIMIZATION_LEVEL = 0;
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
@@ -276,7 +294,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = 2;
@@ -292,11 +310,16 @@
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = YES;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
 				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
@@ -305,7 +328,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = 2;
@@ -319,6 +342,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "MDDrawing/MDDrawingPad-Prefix.pch";
 				INFOPLIST_FILE = "MDDrawing/MDDrawingPad-Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.mduman.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = MDDrawingPad;
 				WRAPPER_EXTENSION = app;
 			};
@@ -330,6 +354,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "MDDrawing/MDDrawingPad-Prefix.pch";
 				INFOPLIST_FILE = "MDDrawing/MDDrawingPad-Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.mduman.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = MDDrawingPad;
 				WRAPPER_EXTENSION = app;
 			};
