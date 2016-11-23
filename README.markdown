@@ -1,1 +1,5 @@
-This is a demo iOS app I developed to illustrate [a blog post on hit testing](http://oleb.net/blog/2012/02/cgpath-hit-testing/) with the `CGPathCreateCopyByStrokingPath()` function. Please see the article on my blog for more info.
+This is a drawing application for iPad. It is based on **CALayers**. It supports
+ * Pen drawing
+ * Shapes (rectangle, ellipse, polygons)
+ * Shape selecting, moving, rotating and resizing.
+ * Color and line width selection
