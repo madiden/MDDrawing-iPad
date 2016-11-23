@@ -3,3 +3,5 @@ This is a drawing application for iPad. It is based on **CALayers**. It supports
  * Shapes (rectangle, ellipse, polygons)
  * Shape selecting, moving, rotating and resizing.
  * Color and line width selection
+
+[[https://github.com/username/repository/blob/master/img/octocat.png|alt=octocat]]
